@@ -1,9 +1,18 @@
-.list {
-  margin-top: 30px;
-  list-style-type: none;
-  padding-left: 0;
+.active {
+  color: rgba(188, 89, 53, 0.836);
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  justify-content: center;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  gap: 24px;
+  width: 100%;
+  background-color: #194a28;
+  padding: 10px 20px;
+  z-index: 1000;
+  font-size: 24px;
 }
