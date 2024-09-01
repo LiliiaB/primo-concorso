@@ -1,7 +1,11 @@
+import logo from "../../images/logo.png";
+
 export const Header = () => {
   return (
     <div>
-      <img src="" alt="" />
+      <a href="./index.html">
+        <img src={logo} alt="Logo" />
+      </a>
     </div>
   );
 };
