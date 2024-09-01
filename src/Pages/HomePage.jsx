@@ -1,35 +1,7 @@
-//import { useState, useEffect } from "react";
-
-import { Loader } from "../components/Loader/Loader";
-
-function HomePage() {
-  const [movies, setMovies] = useState([]);
-  const [loader, setLoader] = useState(false);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    setLoader(true);
-    const fetchTrendingMovies = async () => {
-      try {
-        const data = await trendingMovies();
-        setMovies(data.results);
-      } catch (error) {
-        setError(error.message);
-      } finally {
-        setLoader(false);
-      }
-    };
-
-    fetchTrendingMovies();
-  }, []);
-
+export default function HomePage() {
   return (
-    <div>
-      {loader && <Loader />}
-      {error && <p>Some error happened</p>}
-      <MovieList movies={movies} />
-    </div>
+    <>
+      <div>Home Page</div>
+    </>
   );
 }
-
-export default HomePage;

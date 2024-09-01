@@ -4,6 +4,7 @@ import { lazy, Suspense } from "react";
 import { NavBar } from "../NavBar/NavBar";
 import { Loader } from "../Loader/Loader";
 import { Footer } from "../Footer/Footer";
+import NotFoundPage from "../../Pages/NotFoundPage";
 
 const HomePage = lazy(() => import("../../Pages/HomePage"));
 const TermsPage = lazy(() => import("../../Pages/TermsPage"));
@@ -19,7 +20,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/terms" element={<TermsPage />} />
-          <Route path="*" element={<HomePage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <Footer />
       </Suspense>
