@@ -10,10 +10,12 @@ const buildLinkClass = ({ isActive }) => {
 export const NavBar = () => {
   return (
     <nav className={css.nav}>
-      <Link to="/"></Link>
+      <Link to="/">
+        <img src={logo} alt="Logo" style={{ width: "60px", height: "60px" }} />
+      </Link>
 
       <NavLink to="/" className={buildLinkClass}>
-        <img src={logo} alt="Logo" style={{ width: "60px", height: "60px" }} />
+        Home
       </NavLink>
       <NavLink to="/gallery" className={buildLinkClass}>
         Gallery
