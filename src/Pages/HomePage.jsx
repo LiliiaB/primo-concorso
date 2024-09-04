@@ -13,6 +13,16 @@ export default function HomePage() {
         <h3>artista Nadia Kuzina</h3>
         <img src={cane} alt="dog-image" className={css.cane} />
       </div>
+      <div className={css.mostra}>
+        <p>
+          Questa mostra, organizzata dalla Galleria "Veneto Art Gallery", è una
+          celebrazione della Creatività infantile espressa su carta ed altri
+          materiali. Vengono esposti disegni e lavoretti dei bambini provenienti
+          da varie scuole, associazioni e piccoli artisti che condividono con
+          gioia le loro visioni con diversi materiali, tra cui anche la
+          plastitina.
+        </p>
+      </div>
     </div>
   );
 }
