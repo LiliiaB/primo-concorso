@@ -19,13 +19,13 @@ export const NavBar = () => {
         Home
       </NavLink>
       <NavLink to="/gallery" className={buildLinkClass}>
-        Gallery
+        Galleria
       </NavLink>
       <NavLink to="/terms" className={buildLinkClass}>
-        Terms and conditions
+        Termini e condizioni
       </NavLink>
       <NavLink to="/contacts" className={buildLinkClass}>
-        Contacts
+        Contatti
       </NavLink>
 
       <div className={css.artista}>

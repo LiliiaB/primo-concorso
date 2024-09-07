@@ -3,7 +3,7 @@ import css from "./TermsPage.module.css";
 export default function TermsPage() {
   return (
     <div className={css.container}>
-      <h2>Terms and Conditions</h2>
+      <h2>Termini e Condizioni</h2>
       <div>
         <h3>Titolo della mostra: </h3>
         <p>"Il mondo dei colori dei bambini: Ispirazione e creatività"</p>
