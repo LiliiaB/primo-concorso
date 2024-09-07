@@ -8,7 +8,6 @@ export const Footer = () => {
     <>
       <footer className={css.footer}>
         <div className={css.sponsorRow}>
-          {" "}
           <img src={logo1} alt="Sponsor 1" className={css.sponsorLogo} />
           <img src={logo2} alt="Sponsor 2" className={css.sponsorLogo} />
         </div>

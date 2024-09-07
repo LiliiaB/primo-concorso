@@ -23,6 +23,9 @@ export const NavBar = () => {
       <NavLink to="/terms" className={buildLinkClass}>
         Terms and conditions
       </NavLink>
+      <NavLink to="/contacts" className={buildLinkClass}>
+        Contacts
+      </NavLink>
     </nav>
   );
 };
