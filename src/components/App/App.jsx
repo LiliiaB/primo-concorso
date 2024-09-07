@@ -13,19 +13,20 @@ const ContactsPage = lazy(() => import("../../Pages/ContactsPage"));
 
 export default function App() {
   return (
-    <>
+    <div className="pagecontainer">
       <Suspense fallback={<Loader />}>
         <NavBar />
-
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/gallery" element={<GalleryPage />} />
-          <Route path="/terms" element={<TermsPage />} />
-          <Route path="/contacts" element={<ContactsPage />} />
-          <Route path="*" element={<NotFoundPage />} />
-        </Routes>
+        <div className="contentwrap">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/gallery" element={<GalleryPage />} />
+            <Route path="/terms" element={<TermsPage />} />
+            <Route path="/contacts" element={<ContactsPage />} />
+            <Route path="*" element={<NotFoundPage />} />
+          </Routes>
+        </div>
         <Footer />
       </Suspense>
-    </>
+    </div>
   );
 }

@@ -2,8 +2,6 @@
   background-color: #87b58f;
   padding: 20px;
   text-align: center;
-
-  font-size: 16px;
   margin-top: 40px;
   width: 100%;
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
@@ -29,12 +27,7 @@
 }
 .sponsorRow {
   display: flex;
-  justify-content: center; /* Center align the logos */
-  gap: 20px; /* Add space between logos */
-  margin-bottom: 20px; /* Add space between logos and copyright text */
-}
-
-.sponsorLogo {
-  height: 50px; /* Adjust size of logos */
-  width: auto; /* Maintain aspect ratio */
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
 }

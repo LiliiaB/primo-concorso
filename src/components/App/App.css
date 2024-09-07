@@ -40,3 +40,11 @@
 .read-the-docs {
   color: #888;
 }
+.pagecontainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.contentwrap {
+  flex: 1;
+}
