@@ -2,6 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import logo from "../../images/logo.png";
 import css from "./NavBar.module.css";
 import clsx from "clsx";
+import Artista from "../Artista/Artista";
 
 const buildLinkClass = ({ isActive }) => {
   return clsx(css.link, isActive && css.active);
@@ -26,6 +27,10 @@ export const NavBar = () => {
       <NavLink to="/contacts" className={buildLinkClass}>
         Contacts
       </NavLink>
+
+      <div className={css.artista}>
+        <Artista />
+      </div>
     </nav>
   );
 };

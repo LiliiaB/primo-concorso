@@ -1,4 +1,4 @@
-.main {
+.hero {
   padding: 72px 0 72px 0;
   background-color: #2e2f42;
   color: #fff;
@@ -13,22 +13,6 @@
   background-repeat: no-repeat;
   margin: auto;
 }
-.author {
-  padding: 24px 12px;
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.cane {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 8px solid #8adbea;
-}
 
 .title {
   padding: 12px;
@@ -42,4 +26,8 @@
 
 .textmostra {
   font-style: italic;
+}
+
+.hero {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
